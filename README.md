@@ -1,12 +1,14 @@
 # Proyek Analisis Data: Bike Sharing Dataset
 
 ## Deskripsi
-Proyek ini merupakan submission proyek akhir untuk kelas Analisis Data. Proyek ini bertujuan untuk menganalisis data penyewaan sepeda (*Bike Sharing Dataset*) guna memahami pola penggunaan berdasarkan kondisi cuaca, musim, dan tipe pengguna (*casual* vs *registered*), serta menyajikan hasilnya secara interaktif melalui dashboard Streamlit.
+Proyek ini merupakan submission proyek akhir untuk kelas Analisis Data. 
+Proyek ini bertujuan untuk menganalisis data penyewaan sepeda (*Bike Sharing Dataset*) untuk menganalisis pola penggunaan berdasarkan kondisi cuaca, musim, dan tipe pengguna (*casual*/belum terdaftar vs *registered*/sudah terdaftar), 
+serta menampilkan hasilnya melalui dashboard Streamlit.
 
 ## Dibuat Oleh
-- **Nama**: Submitter
-- **Email**: student@dicoding.org
-- **ID Dicoding**: student_dicoding
+- **Nama**: Toyo Wiyatno
+- **Email**: toyo.pmc@gmail.com
+- **ID Dicoding**: https://www.dicoding.com/users/toyowiyatno
 
 ## Struktur Direktori
 ```text
@@ -48,3 +50,5 @@ streamlit run dashboard/dashboard.py
 ```
 
 Dashboard interaktif akan terbuka secara otomatis pada browser Anda di `http://localhost:8501`.
+
+note; jangan runing langsung dari IDE/klik langsung file *.py* karena akan reror
