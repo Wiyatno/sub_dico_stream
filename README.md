@@ -26,19 +26,16 @@ submission
 
 ## Cara Menjalankan Dashboard Streamlit
 
-### 1. Persiapan Lingkungan (Setup Environment)
+### 1. Mempersiapan Lingkungan (Setup Environment)
 Buka terminal / command prompt dan jalankan perintah berikut:
 
 ```bash
 # Pindah ke direktori submission
+extrack sub_dico_stream-main.zip
 cd submission
-
-# (Opsional) Buat virtual environment
-python -m venv venv
-source venv/bin/activate  # Untuk Mac/Linux
-# venv\Scripts\activate   # Untuk Windows
-
-# Install dependensi
+pip install pipenv
+pipenv install
+pipenv shell
 pip install -r requirements.txt
 ```
 
@@ -47,6 +44,11 @@ Jalankan perintah berikut pada terminal:
 
 ```bash
 streamlit run dashboard/dashboard.py
+```
+atau masuk ke folder dashboard
+
+```bash
+streamlit run dashboard.py
 ```
 
 Dashboard interaktif akan terbuka secara otomatis pada browser Anda di `http://localhost:8501`.
